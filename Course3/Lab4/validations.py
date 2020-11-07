@@ -22,7 +22,11 @@ def validate_user(username, minlen):
 print(validate_user("blue.kale", 3)) # True
 print(validate_user("1blue.kale", 3)) # Currently True, should be False
 print(validate_user("red_quinoa", 4)) # True
+<<<<<<< HEAD
 print(validate_user("1red_quinoa", 4)) # Currently True, should be False
 
 
+=======
+print(validate_user("1red_quinoa", 4)) # Currently True, sh
+>>>>>>> 26cd3d292b3211cdf1a149f70f017fed6773e3e5
 
